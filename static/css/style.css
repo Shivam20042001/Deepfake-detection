@@ -1,0 +1,32 @@
+/* Custom styles for Deepfake Detection App */
+
+/* Upload area styles */
+.upload-area {
+    border-color: var(--bs-border-color) !important;
+    transition: all 0.3s ease;
+    background-color: rgba(var(--bs-secondary-rgb), 0.05);
+}
+
+.upload-area:hover, .upload-area.dragover {
+    border-color: var(--bs-primary) !important;
+    background-color: rgba(var(--bs-primary-rgb), 0.05);
+}
+
+/* Result icon wrapper */
+.result-icon-wrapper {
+    width: 80px;
+    height: 80px;
+}
+
+/* Loading overlay */
+#loading-overlay {
+    z-index: 9999;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
